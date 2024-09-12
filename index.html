@@ -12,7 +12,7 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
-
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Frontend Mentor | Contact form</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -26,28 +26,28 @@
       }
     </style>
   </head>
-  <body class="flex items-center justify-center h-screen bg-primary-light relative">
-    <section class=" flex flex-col bg-neutral-White rounded-xl py-10 px-8">
+  <body class="flex items-center justify-center h-screen bg-primary-light relative sm:m-10">
+    <section class=" flex flex-col bg-neutral-White rounded-xl py-10 px-8 sm:m-10">
       <h3 class="text-3xl font-bold mb-8">Contact Us</h3>
-      <form class="flex-row mb-8">
-        <div class="flex mb-4">
-            <div class="flex-col">
+      <form class="flex flex-col mb-8 ">
+        <div class="flex mb-4 sm:flex-col ">
+            <div class="">
                 <label for="firstName" class="inline-block pb-2" >First Name</label>
-                <input id="firstName" class="rounded-lg border border-neutral  block py-2 px-4  focus:border-primary focus:outline-none   hover:border-primary hover:cursor-pointer "  type="text"   />
+                <input id="firstName" class="rounded-lg border border-neutral  block py-2 px-4  focus:border-primary focus:outline-none   hover:border-primary hover:cursor-pointer sm:w-full"  type="text"   />
                 <span class="warning hidden text-primary-red leading-10">This field is required</span>
             </div>
-            <div class="flex-col ml-3 mb-4">
+            <div class="ml-3 mb-4 sm:ml-0">
                 <label for="lastName" class="inline-block pb-2">Last Name</label>
-                <input id="lastName" class="rounded-lg border block py-2 px-4 border-neutral focus:border-primary focus:outline-none   hover:border-primary hover:cursor-pointer" type="text"  />
+                <input id="lastName" class="rounded-lg border block py-2 px-4 border-neutral focus:border-primary focus:outline-none   hover:border-primary hover:cursor-pointer sm:w-full" type="text"  />
                 <span class="warning hidden text-primary-red leading-10">This field is required</span>
             </div>
         </div>
-        <div class="flex-col mb-4">
+        <div class="flex-col mb-4 ">
           <label for="EmailAddress" class="inline-block pb-2">Email Address</label>
           <input id="email" class="rounded-lg border block w-full py-2 px-4 border-neutral focus:border-primary focus:outline-none   hover:border-primary hover:cursor-pointer" type="email"  />
           <span class="warning hidden text-primary-red leading-10">Please enter a valid email address </span>
         </div>
-        <div class="mb-4">
+        <div class="mb-4 ">
           <label class="inline-block pb-2" for="Query Type"> Query Type</label>
           <div class="flex flex-row">
             <div class="flex-auto rounded-lg border py-2 px-4 border-neutral focus:border-primary focus:outline-none   hover:border-primary hover:cursor-pointer flex flex-row items-center">
@@ -75,17 +75,16 @@
                     value="Support Request"
                 />
                 <label class="hover:cursor-pointer" for="Support Request">Support Request</label>
-            </div>
-            
+            </div> 
           </div>
           <span class="warning hidden text-primary-red leading-10"> Please select a query type</span>
         </div>
-        <div class="flex flex-col mb-4">
+        <div class="flex flex-col mb-4 ">
           <label class="inline-block pb-2" for="Message">Message</label>
           <textarea class=" rounded-lg border py-2 px-4 border-neutral focus:border-primary focus:outline-none resize-none hover:border-primary hover:cursor-pointer" name="Message" id="Message" cols="10" rows="3"></textarea>
           <span class="warning hidden text-primary-red leading-10">This field is required</span>
         </div>
-        <div class="mb-4">
+        <div class="mb-4 ">
             <div class="flex">
                 <svg id="rols-checked" class="hidden inline-block"  width="16" height="16" fill="none" viewBox="0 0 18 18"><path fill="#0C7D69" d="M16.5 0h-15A1.5 1.5 0 0 0 0 1.5v15A1.5 1.5 0 0 0 1.5 18h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 16.5 0Zm-3.22 7.28-5.25 5.25a.748.748 0 0 1-1.06 0l-2.25-2.25a.75.75 0 1 1 1.06-1.06l1.72 1.72 4.72-4.72a.751.751 0 0 1 1.06 1.06Z"/></svg>
                 <div id="rols-unchecked" class="border-primary border w-[16px] h-[16px]  hover:border-primary inline-block "></div>
@@ -100,10 +99,9 @@
           </div>
           <span class="warning hidden block text-primary-red leading-10">To submit this form, please consent to being contacted</span>
         </div>
-        <div >
+        <div class="">
             <button id="Submit" class="bg-primary w-full block rounded-lg py-2 px-4   hover:bg-primary-dark hover:text-neutral-White hover:cursor-pointer" type="submit " >Submit</button>
-        </div>
-        
+        </div>  
       </form>
       <div class="attribution">
         Challenge by

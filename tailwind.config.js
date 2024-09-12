@@ -16,6 +16,10 @@ module.exports = {
                 darker:"hsl(187, 24%, 22%)",
             },
         },
+        screens:{
+            'sm' : {'max':'375px'},
+            'lg' : '1440px',
+        }
     },
   },
   plugins: [],
