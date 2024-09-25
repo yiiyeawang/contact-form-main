@@ -869,25 +869,56 @@ label[for]:not([for="General Enquiry"]):not([for="Support Request"])::after {
   outline-offset: 2px;
 }
 
-@media (max-width: 375px){
-  .sm\:m-10{
-    margin: 2.5rem;
-  }
-
-  .sm\:ml-0{
-    margin-left: 0px;
-  }
-
+@media (min-width: 640px){
   .sm\:w-full{
     width: 100%;
   }
 
-  .sm\:flex-col{
+  .sm\:bg-slate-500{
+    --tw-bg-opacity: 1;
+    background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+  }
+}
+
+@media (max-width: 375px){
+  .max-375\:ml-0{
+    margin-left: 0px;
+  }
+
+  .max-375\:mt-3{
+    margin-top: 0.75rem;
+  }
+
+  .max-375\:w-full{
+    width: 100%;
+  }
+
+  .max-375\:flex-row{
+    flex-direction: row;
+  }
+
+  .max-375\:flex-col{
     flex-direction: column;
   }
 
-  .sm\:p-10{
-    padding: 2.5rem;
+  .max-375\:bg-slate-500{
+    --tw-bg-opacity: 1;
+    background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+  }
+
+  .max-375\:py-10{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .max-375\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .max-375\:py-8{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
 /*# sourceMappingURL=output.css.map */
