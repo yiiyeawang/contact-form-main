@@ -14,11 +14,10 @@ This is a solution to the [Contact form challenge on Frontend Mentor](https://ww
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+This is my first challenge on the Frontend Mentor platform. I hope to use this common form exercise to improve my layout skills and learn a new CSS framework (Tailwind CSS). This challenge covers the full range of typical user experiences, from form entry to submission.
 
 ### The challenge
 
@@ -40,10 +39,11 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/yiiyeawang/contact-form-main](https://github.com/yiiyeawang/contact-form-main)
+- Solution URL: [Not uploaded yet](Not uploaded yet)
 - Live Site URL: [https://yiiyeawang.github.io/contact-form-main/](https://yiiyeawang.github.io/contact-form-main/)
 
 ## My process
+
 
 ### Built with
 
@@ -65,31 +65,20 @@ This project aims to learn and understand the use of Tailwind CSS, focusing on f
 - Using Tailwind to enhance JavaScript interaction experiences.
 
 
-
-
 ### Continued development
+Increase form response time control, applying it to forms and real projects.
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Tailwind CSS official website](https://tailwindcss.com) - This helped me for 「Set up the Tailwind CSS package.」、「Customize styles with Tailwind CSS.」reason. I really liked this pattern and will use it going forward.
+- [Kelly CHI -Tailwind CSS 新手上路：概念、安裝與工具推薦](https://medium.com/@Kelly_CHI/tailwind-css-introduction-and-tools-68e770b2bf7f#773a) - This is an amazing article which helped me understand the overall way of using the package.. I'd recommend it to anyone still learning this concept.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Angela Wang](https://yiiyeawang.github.io/My-website/)
+- Frontend Mentor - [@Not uploaded yet](Not uploaded yet)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
